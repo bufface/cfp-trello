@@ -13,10 +13,27 @@ body {
   overflow-y: scroll;
 }
 
+.lists-containers {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.infinite-width {
+  white-space: nowrap;
+}
+
 .lists > div {
   background-color: #E0E0E0;
   display: inline-block;
   width: 300px;
   vertical-align: top;
   margin-right: 1em;
+}
+
+.new-list {
+  padding: 1em;
+}
+
+.new-list input[type="submit"] {
+  margin-top: 0.8em;
 }
