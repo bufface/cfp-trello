@@ -28,6 +28,7 @@ body {
   width: 300px;
   vertical-align: top;
   margin-right: 1em;
+  padding: 10px;
 }
 
 .new-list {
@@ -36,4 +37,12 @@ body {
 
 .new-list input[type="submit"] {
   margin-top: 0.8em;
+}
+
+.card {
+  padding: 10px;
+  background-color: white;
+  margin-top: 8px;
+  border-bottom: 1px solid #CCC;
+  barder-radius: 3px;
 }
