@@ -11,6 +11,14 @@ export default Ember.Component.extend({
 
     addItem () {
       this.sendAction("action", this.itemDescription, this.list);
+    },
+
+    hideForm () {
+      this.$(".form-hide").hide();
+    },
+
+    showForm () {
+      this.$(".form-hide").show();
     }
   }
 });
