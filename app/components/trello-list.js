@@ -7,6 +7,10 @@ export default Ember.Component.extend({
         this.list.deleteRecord();
         this.list.save();
       });
+    },
+
+    addItem () {
+      this.sendAction("action", this.itemDescription, this.list);
     }
   }
 });
